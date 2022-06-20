@@ -18,7 +18,7 @@ By creating a new table and sorting the data by the goal of each campaign, we ca
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/107593214/174493082-419025cf-1fa5-49c6-b2eb-d81100e6dee7.PNG)
 
 ### Challenges and Difficulties Encountered
-
+I encountered a few challenges when working out the proper syntax for the ``=countifs()`` function, however, I was able to overcome this by looking at some examples of how it is used. I also noticed after creating the table that the overall counts for everything seemed high. I realized after the fact that I needed to add an extra variable in the function to filter for "theater" as I had though that the ``countifs()`` function would take into account the filters that were applied to the original Kickstarter data set. After making this change, the counts seemed more reasonable, though I did go back and cross reference these to ensure accuracy. 
 ## Results
 
 - Based on the analysis of campaign outcomes by launch date we can determine that the summer time is the best time of year to launch a campaign. May is the launch month that appears to have the highest ratio of successful to failed campaigns, followed by June, July, and August. However, the number of successful campaigns drops off dramatically around the end of the year and into the new year. 
